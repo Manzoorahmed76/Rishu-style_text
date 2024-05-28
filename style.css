@@ -1,0 +1,60 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    background-color: #222;
+    color: #999;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Container for content and header styles */
+.container, header {
+    max-width: 95%;
+    margin: 0 auto;
+    background-color: #222;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.07), 0 0 10px rgba(0, 0, 0, 0.2);
+
+    border-radius: 2px;
+}
+
+/* Header title styles */
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #222;
+    padding: 10px;
+	margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.07);
+    border-radius: 5px;
+    background-color: #222;
+}
+
+
+/* Input field styles */
+.myinput {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ffffff12;
+    border-radius: 2px; 
+    box-shadow: 0 2px 4px rgba(244, 242, 242, 0.514);
+}
+
+/* Fancy text block styles */
+.fancy-text {
+    margin: 10px 0;      
+    padding: 10px;
+    background-color: #222;
+    border: 2px solid #ffffff0e;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.07), 0 0 10px rgba(0, 0, 0, 0.2);
+
+    color: #fcf7f7; /* Text color for fancy text blocks */
+}
